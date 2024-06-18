@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello, world!, This is my first AWS Devops Pipeline with Python App'
+    return 'Hello, world!, This is my first AWS Devops'
 
 if __name__ == '__main__':
     app.run()
